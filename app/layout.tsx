@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Peeper',
+  title: 'Snoopy',
   description: 'Track Crypto Influencers in Real-Time',
 };
 

@@ -7,7 +7,7 @@ import RoadmapSection from "./RoadmapSection";
 import TokenCards from "./TokenCards";
 import Footer from "./Footer";
 
-const PeeperLandingPage: React.FC = () => {
+const SnoopyLandingPage: React.FC = () => {
   return (
     <main className="overflow-x-hidden w-full text-white bg-[#050817] min-h-screen font-['Poppins'] relative">
       {/* Space stars background for entire page */}
@@ -61,4 +61,4 @@ const PeeperLandingPage: React.FC = () => {
   );
 };
 
-export default PeeperLandingPage;
+export default SnoopyLandingPage;

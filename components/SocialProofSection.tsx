@@ -7,11 +7,11 @@ const SocialProofSection: React.FC = () => {
       <div className="flex gap-10 max-md:flex-wrap max-md:justify-center">
         <TweetCard
           username="@kanyewest"
-          content="This Peeper bot getting my tweets before I even post them 😂"
+          content="This Snoopy bot getting my tweets before I even post them 😂"
         />
         <TweetCard
           username="@elonmusk"
-          content="Just heard about peeper.. might need to check this out. Zero delay notificaiton? 🔥"
+          content="Just heard about snoopy.. might need to check this out. Zero delay notificaiton? 🔥"
         />
       </div>
     </section>

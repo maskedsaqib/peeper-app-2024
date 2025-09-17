@@ -21,7 +21,7 @@ const Logo: React.FC = () => {
           letterSpacing="0em"
         >
           <tspan x="57.7711" y="29.8731">
-            peeper
+            snoopy
           </tspan>
         </text>
         <mask

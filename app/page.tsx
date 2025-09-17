@@ -1,6 +1,6 @@
 import React from 'react';
-import PeeperLandingPage from "../components/PeeperLandingPage";
+import SnoopyLandingPage from "../components/SnoopyLandingPage";
 
 export default function Home() {
-  return <PeeperLandingPage />;
+  return <SnoopyLandingPage />;
 } 

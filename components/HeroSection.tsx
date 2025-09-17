@@ -5,21 +5,21 @@ import SpaceButton from "./SpaceButton";
 const HeroSection: React.FC = () => {
   return (
     <section className="flex flex-col items-center w-full pt-14 relative">
-      <div className="relative w-full">
+      <div className="relative w-full flex justify-center">
         {/* Hero text with gradient fade effect */}
-        <div className="relative w-full">
-          <h1 className="font-bold text-center uppercase mx-auto relative">
-            <span className="inline-block text-[200px] max-lg:text-[150px] max-md:text-8xl max-sm:text-7xl bg-gradient-to-r from-transparent via-white to-transparent bg-clip-text text-transparent">
-              peeper.lol
+        <div className="relative w-full flex justify-center items-center">
+          <h1 className="font-bold text-center uppercase">
+            <span className="block mx-auto text-[200px] max-lg:text-[150px] max-md:text-8xl max-sm:text-7xl bg-gradient-to-r from-transparent via-white to-transparent bg-clip-text text-transparent">
+              snoopy.mom
             </span>
           </h1>
         </div>
         
-        {/* Peeper character positioned in center of hero text - increased size */}
+        {/* Snoopy character positioned in center of hero text - increased size */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-[500px] max-lg:w-[450px] max-md:w-[350px] max-sm:w-[300px]">
           <img 
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d9641eb9420e3ff185990b00009978e78b82f9c7" 
-            alt="Peeper Character - A cute cartoon bird mascot"
+            src="/images/snoopy-mascot.png" 
+            alt="Snoopy Character - A cute cartoon dog mascot"
             className="w-full h-auto"
           />
         </div>
@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
         <div className="mt-4">
           <SpaceButton 
             text="Get Started" 
-            onClick={() => console.log("Get Started clicked")} 
+            onClick={() => window.open("https://t.me/SnoopyTrackerBot", "_blank", "noopener,noreferrer")}
           />
         </div>
         
